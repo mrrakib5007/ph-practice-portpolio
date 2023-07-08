@@ -121,6 +121,9 @@ header {
 
 
 /* Main section */
+main {
+    justify-content: center;
+}
 
     /* about section  */
 .about {
@@ -128,4 +131,21 @@ header {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info-container .about-info{
+    text-align: center;
+}
+.about-info-container .about-info .info-title{
+    margin:0;
+
+}
+.about-info-container .about-info .info-description{
+    margin: 10px 0;
 }
