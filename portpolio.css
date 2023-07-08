@@ -79,9 +79,10 @@ header .btn-primary
 /* header style  */
 header {
     background: #fff8f3;
-    background-image: url(./images/header_bg.png);
+    background-image: url(./images/header_bg.png), url(./images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-size: contain;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -148,4 +149,27 @@ main {
 }
 .about-info-container .about-info .info-description{
     margin: 10px 0;
+}
+
+/* What I do Section  */
+
+#what-i-do-description {
+    padding: 30px 200px;
+}
+
+.skill-container {
+    display: flex;
+    padding: 0 120px;
+    justify-content: space-between;
+}
+
+.skill-box {
+    max-height: 377px;
+    max-width: 250px;
+    margin-right: 20px;
+    overflow: hidden;
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
