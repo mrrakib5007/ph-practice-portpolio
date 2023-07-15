@@ -359,7 +359,6 @@ main {
 nav {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: 0 50px;
 }
 
@@ -371,30 +370,8 @@ nav > ul {
   display: none;
 }
 
-
-.btn-primary {
-  border: none;
-  outline: none;
-  border-radius: 5px;
-  background: #fd6e0a;
-  color: white;
-  font-size: 20px;
-  font-weight: 700;
-  padding: 18px 35px;
-}
-
-/* header style  */
-header {
-  background: #fff8f3;
-  background-image: url(./images/header_bg.png), url(./images/developer.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: bottom right, top left;
-}
-
 .banner {
   padding:20px 20px 0;
-  display: flex;
   flex-direction: column;
   gap: 50px;
 }
@@ -541,7 +518,7 @@ header {
 .footer-column .input-text-area
 {
   padding: 12px 10px;
-  width: 90%;
+  width: 100%;
 
 }
 
